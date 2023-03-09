@@ -1,12 +1,12 @@
-![Screenshot](Screenshot 2023-03-09 171303.png)
+![Screenshot](Screenshot.png)
 
-FE  --> 
+Vue3  --> 
 ```npm install```
 ```npm run dev```
 
 
 server --> 
-To start developing run ```npm install```
+ ```npm install```
 set up mongoDB in Docker
 ```docker build -t my-mongo .```
 
