@@ -1,0 +1,49 @@
+@import './css-reset.css';
+@import './bootstrap-grid.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+
+:root {
+  --c-main:#333333;
+  --c-secondary:#D8D8D8;
+  --c-accent:#FABF2b;
+}
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: var(--c-secondary);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
+  background-color: var(--c-main);
+  margin-bottom: 20px;
+}
+
+.nav__el{ 
+  text-decoration: none;
+  color: var(--c-secondary);
+  font-size: 2rem;
+  &:hover {
+    color: var(--c-accent)
+  }
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 2px solid var(--c-accent);
+  background-color: var(--c-accent);
+  cursor: pointer;
+  &:hover {
+    transition: 0.3s;
+    background-color: var(--c-secondary);
+    color: var(--c-accent);
+  }
+}

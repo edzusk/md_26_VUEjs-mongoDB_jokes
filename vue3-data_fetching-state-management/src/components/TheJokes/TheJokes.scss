@@ -1,0 +1,14 @@
+.jokeCard {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    background-color: var(--c-main);
+    color: var(--c-secondary);
+    border: 5px solid var(--c-accent);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.jokeCard__buttonWrapper {
+    display: flex;
+    justify-content: flex-end;
+}

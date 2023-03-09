@@ -1,0 +1,15 @@
+
+<div class="container">
+
+        <div v-for="joke in jokes">
+            <div class="jokeCard">
+                <span class="jokeCard__joke" >{{joke.joke}}</span>
+                <div class="jokeCard__buttonWrapper"> 
+                    <button 
+                    @click="addToFavorites(joke.joke)"
+                    class="button"> add to favorites</button>
+                </div>
+            </div>
+        </div>
+
+</div>
